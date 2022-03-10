@@ -1,0 +1,29 @@
+{
+  "name": "@krisstal/readme-linter",
+  "version": "1.0.0",
+  "description": "CLI for Readme's OpenAPI linter",
+  "main": "src/index.js",
+  "bin": {
+    "@krisstal/readme-linter": "bin/readme-linter",
+    "readme-linter": "bin/readme-linter"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "readme",
+    "openapi",
+    "linter",
+    "validator"
+  ],
+  "author": "Kris",
+  "license": "ISC",
+  "dependencies": {
+    "@readme/openapi-parser": "^2.0.2",
+    "esm": "^3.2.25"
+  }
+}
