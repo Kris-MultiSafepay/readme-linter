@@ -1,6 +1,6 @@
 {
   "name": "@krisstal/readme-linter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI for Readme's OpenAPI linter",
   "main": "src/index.js",
   "bin": {
@@ -21,7 +21,7 @@
     "validator"
   ],
   "author": "Kris",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@readme/openapi-parser": "^2.0.2",
     "esm": "^3.2.25"
